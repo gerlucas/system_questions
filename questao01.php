@@ -33,7 +33,25 @@
             <label for="faixa">Faixa</label>
             <input type="radio" id="faixa" name="elemento" value="faixa" onclick="document.getElementById('formulario-questoes').submit()"><br>
         </fieldset>
-
+    
+        <?php
+        $totalElementos = $_GET['totalElementos'] ?? 1;
+        $elementoSelecionado = $_GET['elemento'] ?? 'elemento';        
+        
+        if ($totalElementos >= 1 && $totalElementos <= 15) {
+            if ($elementoSelecionado == "texto") {
+                for ($i = 1; $i <= $totalElementos; $i++) {
+                    echo "<br> <input type=\"text\" name=\"text$i\" id=\"text$i\"><br>";
+                }
+                echo "<br>";
+                for ($i = 1; $i <= $totalElementos; $i++) {
+                    echo "&lt;input type=\"text\" name=\"text$i\" id=\"text$i\"&gt;&lt;br&gt;<br>";
+                }
+            }
+        } else {
+            echo "Quantidade invalida. O numero de elementos deve estar de 01 a 15.";
+        }
+        ?>
     </form>
 </body>
 </html>
