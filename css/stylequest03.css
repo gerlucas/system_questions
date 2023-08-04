@@ -1,0 +1,153 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f86e9;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ol li{
+  margin-left: 50px;
+  font-size: 45px;
+}
+
+.uil.uil-check {
+  font-size: 45px; 
+}
+
+.uil.uil-times {
+  font-size: 45px; 
+}
+
+.center {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.center a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #256bbb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.center a:hover {
+  background-color: #0073ff;
+}
+
+.correta {
+  color: rgb(0, 255, 0) !important; 
+  text-decoration: underline !important; 
+}
+
+.alternativas {
+  display: grid;
+  grid-template-columns: repeat(2, 800px); 
+  grid-gap: 20px 50px; 
+  justify-content: center; 
+  margin-top: 50px; 
+}
+
+.alternativa {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 60px; 
+  border: 2px solid #464646;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.8s, filter 0.3s;
+}
+
+.alternativa-r {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 60px; 
+  border: 2px solid #464646;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alternativa-r-in {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 60px; 
+  border: 2px solid #464646;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  filter: brightness(0.6);
+}
+
+.alternativa-1 {
+  background-color: rgb(223, 39, 39);
+  color: #fff; 
+}
+
+.alternativa-2 {
+  background-color: limegreen;
+  color: #fff;
+}
+
+.alternativa-3 {
+  background-color: #0eb8ec;
+  color: #fff;
+}
+
+.alternativa-4 {
+  background-color: orange;
+  color: #fff;
+}
+
+.alternativa-5-r{
+  background-color: #893797; 
+  color: #fff;
+}
+
+.alternativa-5 {
+  width: 800px;
+  height: 60px; 
+  border: 2px solid #464646;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff; 
+  background-color: #893797; 
+  transition: background-color 0.8s, filter 0.3s;
+}
+
+.alternativa:hover {
+  filter: brightness(1.2);
+}
