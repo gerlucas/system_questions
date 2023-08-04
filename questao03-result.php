@@ -28,10 +28,10 @@
                 $resp1 = $_GET['resp1'];
             }
             if($resp1 == '1'){
-                echo '<i class="uil uil-check"></i>';
+                echo '<p class="alternativa-r alternativa-1"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             else{
-                echo '<i class="uil uil-times"></i>';
+                echo '<p class="alternativa-r-in alternativa-1"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             ?>  
             <li>
@@ -40,10 +40,10 @@
                 $resp2 = $_GET['resp2'];
             }
             if($resp2 == '3'){
-                echo '<i class="uil uil-check"></i>';
+                echo '<p class="alternativa-r alternativa-3"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             else{
-                echo '<i class="uil uil-times"></i>';
+                echo '<p class="alternativa-r-in alternativa-3"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             ?>  
             </li>
@@ -53,10 +53,10 @@
                 $resp3 = $_GET['resp3'];
             }
             if($resp3 == '5'){
-                echo '<i class="uil uil-check"></i>';
+                echo '<p class="alternativa-r alternativa-5-r"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             else{
-                echo '<i class="uil uil-times"></i>';
+                echo '<p class="alternativa-r-in alternativa-5-r"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             ?>  
             </li>
@@ -66,10 +66,10 @@
                 $resp4 = $_GET['resp4'];
             }
             if($resp4 == '2'){
-                echo '<i class="uil uil-check"></i>';
+                echo '<p class="alternativa-r alternativa-2"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             else{
-                echo '<i class="uil uil-times"></i>';
+                echo '<p class="alternativa-r-in alternativa-2"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
             }
             ?>  
             </li>

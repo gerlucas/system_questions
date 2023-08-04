@@ -15,6 +15,19 @@ h2{
   margin-bottom: 20px;
 }
 
+ol li{
+  margin-left: 50px;
+  font-size: 45px;
+}
+
+.uil.uil-check {
+  font-size: 45px; 
+}
+
+.uil.uil-times {
+  font-size: 45px; 
+}
+
 .center {
   text-align: center;
   margin-top: 80px;
@@ -63,6 +76,37 @@ h2{
   transition: background-color 0.8s, filter 0.3s;
 }
 
+.alternativa-r {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 60px; 
+  border: 2px solid #464646;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alternativa-r-in {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 60px; 
+  border: 2px solid #464646;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  filter: brightness(0.6);
+}
+
 .alternativa-1 {
   background-color: rgb(223, 39, 39);
   color: #fff; 
@@ -80,6 +124,11 @@ h2{
 
 .alternativa-4 {
   background-color: orange;
+  color: #fff;
+}
+
+.alternativa-5-r{
+  background-color: #893797; 
   color: #fff;
 }
 
