@@ -20,11 +20,13 @@
 
     <main>
         <h2>Q4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
-        <p>A&#41;<a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2']?>&resp3=<?= $_GET['resp3'] ?>&resp4=1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>B&#41;<a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2']?>&resp3=<?= $_GET['resp3'] ?>&resp4=2" class="correta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>C&#41;<a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2']?>&resp3=<?= $_GET['resp3'] ?>&resp4=3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>D&#41;<a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2']?>&resp3=<?= $_GET['resp3'] ?>&resp4=4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>E&#41;<a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2']?>&resp3=<?= $_GET['resp3'] ?>&resp4=5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+        <div class="alternativas">
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=1" class="alternativa alternativa-1">A&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=2" class="alternativa alternativa-2 correta">B&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=3" class="alternativa alternativa-3">C&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=4" class="alternativa alternativa-4">D&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+        </div>
+        <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=5" class="alternativa alternativa-5">E&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
     </main>
 
     <footer>
