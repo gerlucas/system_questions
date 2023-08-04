@@ -17,4 +17,4 @@ O nosso sistema é um projeto educacional para estudo em PHP.
 
 ---
 
-feito por George Lucas e Gabriel Soares
+Construido e projeto por George Lucas e Gabriel Soares
