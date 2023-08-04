@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido utilizando:
 - HTML e CSS
 - Git e Github
 
-## 💻 Nosso Projeto
+## 📜 Nosso Projeto
 
 O nosso sistema é um projeto educacional para estudo em PHP.
 
