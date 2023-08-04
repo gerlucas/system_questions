@@ -19,13 +19,14 @@
 
 
     <main>
-        <h2>Q1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
-        <p>A&#41;<a href="questao03-2" class="correta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>B&#41;<a href="questao03-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>C&#41;<a href="questao03-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-        <p>D&#41;<a href="questao03-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p> 
-        <p>E&#41;<a href="questao03-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-    </main>
+    <h2>Q1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
+    <p>A&#41;<a href="./questao03-2.php?resp1=1" class="alternativa alternativa-1 correta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+    <p>B&#41;<a href="./questao03-2.php?resp1=2" class="alternativa alternativa-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+    <p>C&#41;<a href="./questao03-2.php?resp1=3" class="alternativa alternativa-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+    <p>D&#41;<a href="./questao03-2.php?resp1=4" class="alternativa alternativa-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p> 
+    <p>E&#41;<a href="./questao03-2.php?resp1=5" class="alternativa alternativa-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+</main>
+
 
     <footer>
         <div class="center">

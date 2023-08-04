@@ -1,97 +1,132 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #f0f0f0;
-    margin: 20px;
-  }
-  
-  .tabela-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .tabela {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-    height: auto;
-    overflow-y: auto;
-    transform: rotateX(180deg);
-  }
-  
-  
-  .tabela-inner {
-    transform: rotateX(180deg);
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2f86e9;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
 }
 
-  .center {
-    text-align: center;
-    margin-top: 80px;
+.tabela-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  height: auto;
+  overflow-y: auto;
+  transform: rotateX(180deg);
+}
+
+.tabela-inner {
+  transform: rotateX(180deg);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f86e9;
+}
+
+.center {
+  text-align: center;
+  margin-top: 80px;
 }
 
 .center a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #256bbb;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #256bbb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .center a:hover {
-    background-color: #0073ff;
+  background-color: #0073ff;
 }
-  
-  .IMC-Baixo-muito-grave {
-    background-color: darkblue;
-  }
-  
-  .IMC-Baixo-grave {
-    background-color: blue;
-  }
-  
-  .IMC-Baixo {
-    background-color: yellowgreen;
-  }
-  
-  .IMC-Ideal {
-    background-color: lime;
-  }
-  
-  .IMC-Sobrepeso {
-    background-color: yellow;
-  }
-  
-  .IMC-Obesidade-I {
-    background-color: orange;
-  }
-  
-  .IMC-Obesidade-II {
-    background-color: red;
-  }
-  
-  .IMC-Obesidade-III {
-    background-color: purple;
-  }
-  
-  th {
-    height: 17px;
-    min-width: 17px;
-  }
-  
-  td {
-    width: 17px;
-    height: 17px;
-  }
-  
-.correta{
-    color: limegreen;
-  }
+
+.IMC-Baixo-muito-grave {
+  background-color: darkblue;
+}
+
+.IMC-Baixo-grave {
+  background-color: blue;
+}
+
+.IMC-Baixo {
+  background-color: yellowgreen;
+}
+
+.IMC-Ideal {
+  background-color: lime;
+}
+
+.IMC-Sobrepeso {
+  background-color: yellow;
+}
+
+.IMC-Obesidade-I {
+  background-color: orange;
+}
+
+.IMC-Obesidade-II {
+  background-color: red;
+}
+
+.IMC-Obesidade-III {
+  background-color: purple;
+}
+
+th {
+  height: 17px;
+  min-width: 17px;
+}
+
+td {
+  width: 17px;
+  height: 17px;
+}
+
+.correta {
+  color: limegreen;
+}
+
+.alternativa {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alternativa-1 {
+  background-color: #e57373; 
+  color: #fff; 
+}
+
+.alternativa-2 {
+  background-color: #81c784; 
+  color: #fff; 
+}
+
+.alternativa-3 {
+  background-color: #64b5f6; 
+  color: #fff; 
+}
+
+.alternativa-4 {
+  background-color: #ffd54f; 
+  color: #000; 
+}
+
+.alternativa-5 {
+  background-color: #ba68c8; 
+  color: #fff; 
+}
