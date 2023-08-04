@@ -44,7 +44,41 @@
             $periodo = $_GET["periodo"] ?? 12;
             $rendimentoMensal = $_GET["rendimentoMensal"] ?? 0.7;
             $aporteMensal = $_GET["aporteMensal"] ?? 350;
+            
+            function calcularRendimento($aporteInicial, $periodo, $rendimentoMensal, $aporteMensal)
+            {
+                $total = $aporteInicial;
+                $dados = array();
+                for ($i = 1; $i <= $periodo; $i++) {
+                    $aporte = ($i == 1) ? 0 : $aporteMensal;
+                    $rendimento = ($total + $aporte) * ($rendimentoMensal / 100);
+                    $total += $aporte + $rendimento;
+                    $dados[] = array('mes' => $i, 'inicial' => $aporteInicial, 'aporte' => $aporte, 'rendimento' => $rendimento, 'total' => $total);
+                }
+                return $dados;
+            }
+
+            $dados = calcularRendimento($aporteInicial, $periodo, $rendimentoMensal, $aporteMensal);
             ?>
+
+            <table>
+                <tr>
+                    <th>Mês</th>
+                    <th>Valor Inicial (R$)</th>
+                    <th>Aporte (R$)</th>
+                    <th>Rendimento (R$)</th>
+                    <th>Total (R$)</th>
+                </tr>
+                <?php foreach ($dados as $linha) : ?>
+                    <tr>
+                        <td><?php echo $linha['mes']; ?></td>
+                        <td><?php echo number_format($linha['inicial'], 2, ',', '.'); ?></td>
+                        <td><?php echo number_format($linha['aporte'], 2, ',', '.'); ?></td>
+                        <td><?php echo number_format($linha['rendimento'], 2, ',', '.'); ?></td>
+                        <td><?php echo number_format($linha['total'], 2, ',', '.'); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </table>
     </main>
 
     <footer>
