@@ -34,6 +34,9 @@
             <a href="./questao03-1.php">Cancelar</a>
             <a href="./index.php">Página Inicial</a>
         </div>
+        <div class="footer">
+            <p>&copy; 2023 - George Lucas & Gabriel Soares</p>
+        </div>
     </footer>
 </body>
 

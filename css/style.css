@@ -5,6 +5,20 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    background: #121212;
+}
+
+header h3{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: -60px;
+    color: #ffffff;
+    background: #121212;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -13,7 +27,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #121212;
   overflow: hidden;
 }
 
@@ -56,6 +69,12 @@ section {
 
 .content .text p {
   color: #fff;
+}
+
+.footer{
+    color: #fff;
+    background: #121212;
+    padding-left: 100px;
 }
 
 .content .text a {

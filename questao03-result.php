@@ -23,62 +23,61 @@
         <h2>Parabéns! Seu resultado:</h2>
         <ol>
             <li>
-            <?php
-             if (isset($_GET['resp1'])) {
-                $resp1 = $_GET['resp1'];
-            }
-            if($resp1 == '1'){
-                echo '<p class="alternativa-r alternativa-1"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            else{
-                echo '<p class="alternativa-r-in alternativa-1"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            ?>  
+                <?php
+                if (isset($_GET['resp1'])) {
+                    $resp1 = $_GET['resp1'];
+                }
+                if ($resp1 == '1') {
+                    echo '<p class="alternativa-r alternativa-1"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                } else {
+                    echo '<p class="alternativa-r-in alternativa-1"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                }
+                ?>
             <li>
-            <?php
-             if (isset($_GET['resp2'])) {
-                $resp2 = $_GET['resp2'];
-            }
-            if($resp2 == '3'){
-                echo '<p class="alternativa-r alternativa-3"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            else{
-                echo '<p class="alternativa-r-in alternativa-3"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            ?>  
+                <?php
+                if (isset($_GET['resp2'])) {
+                    $resp2 = $_GET['resp2'];
+                }
+                if ($resp2 == '3') {
+                    echo '<p class="alternativa-r alternativa-3"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                } else {
+                    echo '<p class="alternativa-r-in alternativa-3"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                }
+                ?>
             </li>
             <li>
-            <?php
-             if (isset($_GET['resp3'])) {
-                $resp3 = $_GET['resp3'];
-            }
-            if($resp3 == '5'){
-                echo '<p class="alternativa-r alternativa-5-r"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            else{
-                echo '<p class="alternativa-r-in alternativa-5-r"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            ?>  
+                <?php
+                if (isset($_GET['resp3'])) {
+                    $resp3 = $_GET['resp3'];
+                }
+                if ($resp3 == '5') {
+                    echo '<p class="alternativa-r alternativa-5-r"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                } else {
+                    echo '<p class="alternativa-r-in alternativa-5-r"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                }
+                ?>
             </li>
             <li>
-            <?php
-             if (isset($_GET['resp4'])) {
-                $resp4 = $_GET['resp4'];
-            }
-            if($resp4 == '2'){
-                echo '<p class="alternativa-r alternativa-2"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            else{
-                echo '<p class="alternativa-r-in alternativa-2"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
-            }
-            ?>  
+                <?php
+                if (isset($_GET['resp4'])) {
+                    $resp4 = $_GET['resp4'];
+                }
+                if ($resp4 == '2') {
+                    echo '<p class="alternativa-r alternativa-2"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                } else {
+                    echo '<p class="alternativa-r-in alternativa-2"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                }
+                ?>
             </li>
         </ol>
     </main>
 
     <footer>
         <div class="center">
-        <a href="./index.php">Página Inicial</a>
+            <a href="./index.php">Página Inicial</a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 - George Lucas & Gabriel Soares</p>
         </div>
     </footer>
 </body>
