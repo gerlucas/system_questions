@@ -20,7 +20,7 @@
 
 
     <main>
-        <h2>Parabéns! Seu resultado:</h2>
+        <h2>Obrigado por concluir! Seu resultado:</h2>
         <ol>
             <li>
                 <?php
