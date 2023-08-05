@@ -84,7 +84,10 @@
 
     <footer>
         <div class="center">
-            <a href="../index.php">Página Inicial</a>
+            <a href="./index.php">Página Inicial</a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 - George Lucas & Gabriel Soares</p>
         </div>
     </footer>
 </body>
