@@ -32,7 +32,7 @@
     <footer>
         <div class="center">
             <a href="./questao03-1.php">Cancelar</a>
-            <a href="../index.php">Página Inicial</a>
+            <a href="./index.php">Página Inicial</a>
         </div>
     </footer>
 </body>

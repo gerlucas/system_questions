@@ -84,7 +84,7 @@
     </main>
     <footer>
         <div class="center">
-            <a href="../index.php">Página Inicial</a>
+            <a href="./index.php">Página Inicial</a>
         </div>
     </footer>
 
