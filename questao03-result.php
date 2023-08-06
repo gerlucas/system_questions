@@ -27,10 +27,10 @@
                 if (isset($_GET['resp1'])) {
                     $resp1 = $_GET['resp1'];
                 }
-                if ($resp1 == '1') {
-                    echo '<p class="alternativa-r alternativa-1"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                if ($resp1 == '5') {
+                    echo '<p class="alternativa-r alternativa-1"><i class="uil uil-check"></i>Irá corrigir se cair um pix na conta dele.</p>';
                 } else {
-                    echo '<p class="alternativa-r-in alternativa-1"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r-in alternativa-1"><i class="uil uil-times"></i>Irá corrigir se cair um pix na conta dele.</p>';
                 }
                 ?>
             <li>
@@ -39,9 +39,9 @@
                     $resp2 = $_GET['resp2'];
                 }
                 if ($resp2 == '3') {
-                    echo '<p class="alternativa-r alternativa-3"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r alternativa-3"><i class="uil uil-check"></i>0024</p>';
                 } else {
-                    echo '<p class="alternativa-r-in alternativa-3"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r-in alternativa-3"><i class="uil uil-times"></i>0024</p>';
                 }
                 ?>
             </li>
@@ -51,9 +51,9 @@
                     $resp3 = $_GET['resp3'];
                 }
                 if ($resp3 == '5') {
-                    echo '<p class="alternativa-r alternativa-5-r"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r alternativa-5-r"><i class="uil uil-check"></i>Ana Zaira.</p>';
                 } else {
-                    echo '<p class="alternativa-r-in alternativa-5-r"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r-in alternativa-5-r"><i class="uil uil-times"></i>Ana Zaira.</p>';
                 }
                 ?>
             </li>
@@ -62,10 +62,10 @@
                 if (isset($_GET['resp4'])) {
                     $resp4 = $_GET['resp4'];
                 }
-                if ($resp4 == '2') {
-                    echo '<p class="alternativa-r alternativa-2"><i class="uil uil-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                if ($resp4 == '1') {
+                    echo '<p class="alternativa-r alternativa-2"><i class="uil uil-check"></i>Pedro Álvares Cabral.</p>';
                 } else {
-                    echo '<p class="alternativa-r-in alternativa-2"><i class="uil uil-times"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</p>';
+                    echo '<p class="alternativa-r-in alternativa-2"><i class="uil uil-times"></i>Pedro Álvares Cabral.</p>';
                 }
                 ?>
             </li>

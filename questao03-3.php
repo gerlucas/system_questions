@@ -23,7 +23,7 @@
         <div class="alternativas">
             <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=1" class="alternativa alternativa-1">A&#41; Beatriz Yana.</a></p>
             <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=2" class="alternativa alternativa-2">B&#41; asdf123.</a></p>
-            <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=3" class="alternativa alternativa-3">C&#41; Abóbora</a></p>
+            <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=3" class="alternativa alternativa-3">C&#41; Abóbora.</a></p>
             <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=4" class="alternativa alternativa-4">D&#41; Carlos Xavier.</a></p>
         </div>
         <p><a href="./questao03-4.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=5" class="alternativa alternativa-5 correta">E&#41; Ana Zaira.</a></p>

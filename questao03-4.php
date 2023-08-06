@@ -24,9 +24,9 @@
             <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=1" class="alternativa alternativa-1 correta">A&#41; Pedro Álvares Cabral.</a></p>
             <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=2" class="alternativa alternativa-2">B&#41; Google Chrome.</a></p>
             <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=3" class="alternativa alternativa-3">C&#41; Internet Explorer.</a></p>
-            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=4" class="alternativa alternativa-4">D&#41; Firefox</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=4" class="alternativa alternativa-4">D&#41; Firefox.</a></p>
         </div>
-        <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=5" class="alternativa alternativa-5">E&#41; Opera GX</a></p>
+        <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=5" class="alternativa alternativa-5">E&#41; Opera GX.</a></p>
     </main>
 
     <footer>
