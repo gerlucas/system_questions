@@ -19,33 +19,34 @@
     <main>
         <form action="" method="get" id="formulario-questoes">
             <fieldset>
+                <?php
+                $aporteInicial = $_GET["aporteInicial"] ?? 500;
+                $periodo = $_GET["periodo"] ?? 12;
+                $rendimentoMensal = $_GET["rendimentoMensal"] ?? 0.7;
+                $aporteMensal = $_GET["aporteMensal"] ?? 350;
+                ?>
                 <legend>Parâmetros</legend>
                 <label for="aporteInicial">Aporte inicial (R$):</label>
-                <input type="number" class="input-elementos" name="aporteInicial" id="aporteInicial" min="1" max="999999.99" step="0.01" value="500">
+                <input type="number" class="input-elementos" name="aporteInicial" id="aporteInicial" min="1" max="999999.99" step="0.01" value=<?php echo $aporteInicial ?>>
                 <span> [até R$999.999,99]</span><br>
 
                 <label for="periodo">Período (meses):</label>
-                <input type="number" class="input-elementos" name="periodo" id="periodo" min="1" max="480" value="12">
+                <input type="number" class="input-elementos" name="periodo" id="periodo" min="1" max="480" value=<?php echo $periodo ?>>
                 <span> [de 1 a 480 meses]</span><br>
 
                 <label for="rendimentoMensal">Rendimento mensal (%):</label>
-                <input type="number" class="input-elementos" name="rendimentoMensal" id="rendimentoMensal" min="0.1" max="20" step="0.01" value="0.7">
+                <input type="number" class="input-elementos" name="rendimentoMensal" id="rendimentoMensal" min="0.1" max="20" step="0.01" value=<?php echo $rendimentoMensal ?>>
                 <span> [até 20%]</span><br>
 
 
                 <label for="aporteMensal">Aporte mensal:</label>
-                <input type="number" class="input-elementos" name="aporteMensal" id="aporteMensal" min="1" max="99999999.99" value="350">
+                <input type="number" class="input-elementos" name="aporteMensal" id="aporteMensal" min="1" max="99999999.99" value=<?php echo $aporteMensal ?>>
                 <span> [até R$999.999,99]</span><br>
 
                 <input type="submit" class="input-botao" value="Processar">
             </fieldset>
 
             <?php
-            $aporteInicial = $_GET["aporteInicial"] ?? 500;
-            $periodo = $_GET["periodo"] ?? 12;
-            $rendimentoMensal = $_GET["rendimentoMensal"] ?? 0.7;
-            $aporteMensal = $_GET["aporteMensal"] ?? 350;
-
             function calcularRendimento($aporteInicial, $periodo, $rendimentoMensal, $aporteMensal)
             {
                 $total = $aporteInicial;

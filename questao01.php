@@ -19,9 +19,11 @@
     <main>
         <form action="" method="get" id="formulario-questoes">
             <fieldset>
+                <?php  $totalElementos = $_GET['totalElementos'] ?? 1;?>
+
                 <legend>Geração de elementos</legend>
                 <label for="totalElementos">Total de elementos:</label>
-                <input type="number" class="input-elementos" name="totalElementos" id="totalElementos" min="1" max="15" value="1">
+                <input type="number" class="input-elementos" name="totalElementos" id="totalElementos" min="1" max="15" value= <?php echo $totalElementos ?>>
                 <span> (1 a 15)</span><br><br>
 
                 <label for="texto">Texto</label>
@@ -44,7 +46,6 @@
             </fieldset>
 
             <?php
-            $totalElementos = $_GET['totalElementos'] ?? 1;
             $elementoSelecionado = $_GET['elemento'] ?? 'elemento';
 
             if ($totalElementos >= 1 && $totalElementos <= 15) {
