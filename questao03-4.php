@@ -19,21 +19,21 @@
 
 
     <main>
-        <h2>Q4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
+        <h2>Q4. Qual o melhor navegador?</h2>
         <div class="alternativas">
-            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=1" class="alternativa alternativa-1">A&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=2" class="alternativa alternativa-2 correta">B&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=3" class="alternativa alternativa-3">C&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=4" class="alternativa alternativa-4">D&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=1" class="alternativa alternativa-1 correta">A&#41; Pedro Álvares Cabral.</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=2" class="alternativa alternativa-2">B&#41; Google Chrome.</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=3" class="alternativa alternativa-3">C&#41; Internet Explorer.</a></p>
+            <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=4" class="alternativa alternativa-4">D&#41; Firefox</a></p>
         </div>
-        <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=5" class="alternativa alternativa-5">E&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+        <p><a href="./questao03-result.php?resp1=<?= $_GET['resp1'] ?>&resp2=<?= $_GET['resp2'] ?>&resp3=<?= $_GET['resp3'] ?>&resp4=5" class="alternativa alternativa-5">E&#41; Opera GX</a></p>
     </main>
 
     <footer>
         <div class="center">
             <a href="./questao03-1.php">Cancelar</a>
             <a href="./index.php">Página Inicial</a>
-        </div>
+        </div>  
         <div class="footer">
             <p>&copy; 2023 - George Lucas & Gabriel Soares</p>
         </div>
