@@ -19,14 +19,14 @@
 
 
     <main>
-        <h2>Q1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
+        <h2>Q1. O que acontece se você não enviar a atividade  para o professor?</h2>
         <div class="alternativas">
-            <p><a href="./questao03-2.php?resp1=1" class="alternativa alternativa-1 correta">A&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-2.php?resp1=2" class="alternativa alternativa-2">B&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-2.php?resp1=3" class="alternativa alternativa-3">C&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-2.php?resp1=4" class="alternativa alternativa-4">D&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-2.php?resp1=1" class="alternativa alternativa-1">A&#41; Ele irá corrigir sua atividade mas não será avaliada com a nota do prazo proposta.</a></p>
+            <p><a href="./questao03-2.php?resp1=2" class="alternativa alternativa-2">B&#41; Vai te dar uma tijolada.</a></p>
+            <p><a href="./questao03-2.php?resp1=3" class="alternativa alternativa-3">C&#41; Ele irá corrigir porque entende a vida difícil do estudante do IF.</a></p>
+            <p><a href="./questao03-2.php?resp1=4" class="alternativa alternativa-4">D&#41; Ele não irá corrigir.  </a></p>
         </div>
-        <p><a href="./questao03-2.php?resp1=5" class="alternativa alternativa-5">E&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+        <p><a href="./questao03-2.php?resp1=5" class="alternativa alternativa-5 correta">E&#41; Irá corrigir se cair um pix na conta dele.</a></p>
     </main>
 
 
