@@ -19,14 +19,14 @@
 
 
     <main>
-        <h2>Q2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</h2>
+        <h2>Q2. Dois zeros dois quatro.</h2>
         <div class="alternativas">
-            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=1" class="alternativa alternativa-1">A&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=2" class="alternativa alternativa-2">B&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=3" class="alternativa alternativa-3 correta">C&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
-            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=4" class="alternativa alternativa-4">D&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=1" class="alternativa alternativa-1">A&#41; 2024</a></p>
+            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=2" class="alternativa alternativa-2">B&#41; 0044</a></p>
+            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=3" class="alternativa alternativa-3 correta">C&#41; 0024</a></p>
+            <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=4" class="alternativa alternativa-4">D&#41; 2044</a></p>
         </div>
-        <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=5" class="alternativa alternativa-5">E&#41; Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur ducimus ex rem reprehenderit!</a></p>
+        <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=5" class="alternativa alternativa-5">E&#41; Nenhuma das anteriores</a></p>
     </main>
 
 
