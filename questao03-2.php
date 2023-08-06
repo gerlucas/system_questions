@@ -26,7 +26,7 @@
             <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=3" class="alternativa alternativa-3 correta">C&#41; 0024</a></p>
             <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=4" class="alternativa alternativa-4">D&#41; 2044</a></p>
         </div>
-        <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=5" class="alternativa alternativa-5">E&#41; Nenhuma das anteriores</a></p>
+        <p><a href="./questao03-3.php?resp1=<?= $_GET['resp1'] ?>&resp2=5" class="alternativa alternativa-5">E&#41; Nenhuma das anteriores.</a></p>
     </main>
 
 
